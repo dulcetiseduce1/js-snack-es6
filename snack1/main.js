@@ -26,19 +26,17 @@ const arrayBici = [
   },
 ];
 
-
 let { nome, peso } = arrayBici[0];
-let biciMinorPeso = {nome,peso};
+let biciMinorPeso = { nome, peso, };
 
 for (let i = 1; i < arrayBici.length; i++) {
-    const bici = arrayBici[i];
+  const {nome, peso} = arrayBici[i];
 
-    if(biciMinorPeso.peso > bici.peso){
-        biciMinorPeso = bici;
-    }
-    const biciHTML = document.querySelector(".container");
-
-    biciHTML.innerHTML =`
-    <p>best bike is ${biciMinorPeso.name} ${biciMinorPeso.weight}</p>
-    `
+  if (biciMinorPeso.peso > bici.peso) {
+    biciMinorPeso = {nome,peso,};
+  }
+  const biciHTML = document.querySelector(".container");
 }
+
+  biciHTML.innerHTML = `<h1>${biciLeggera.nome}</h1>
+  <h1>${biciLeggera.peso}</h1>`;
