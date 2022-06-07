@@ -1,39 +1,39 @@
 
 let footballTeams = [
     {
-      id: "Liverpool",
-      points: 0,
-      fouls: 0,
+      nome: "Liverpool",
+      punti: 0,
+      falli: 0,
     },
     {
-      id: "Manchester City",
-      points: 0,
-      fouls: 0,
+      nome: "Manchester City",
+      punti: 0,
+      falli: 0,
     },
     {
-      id: "Manchester United",
-      points: 0,
-      fouls: 0,
+      nome: "Manchester United",
+      punti: 0,
+      falli: 0,
     },
     {
-      id: "Arsenal",
-      points: 0,
-      fouls: 0,
+      nome: "Arsenal",
+      punti: 0,
+      falli: 0,
     },
     {
-      id: "Chelsea",
-      points: 0,
-      fouls: 0,
+      nome: "Chelsea",
+      punti: 0,
+      falli: 0,
     },
     {
-      id: "Tottenham",
-      points: 0,
-      fouls: 0,
+      nome: "Tottenham",
+      punti: 0,
+      falli: 0,
     },
     {
-      id: "Brighton",
-      points: 0,
-      fouls: 0,
+      nome: "Brighton",
+      punti: 0,
+      falli: 0,
     },
   ];
   
