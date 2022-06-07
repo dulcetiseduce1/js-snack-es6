@@ -1,4 +1,4 @@
-//array membri
+//array bici
 const arrayBici = [
   {
     nome: "mercedes pedal",
